@@ -1,32 +1,117 @@
-.App {
-  text-align: center;
+.navbar-brand {
+  color: #ccc;
+}
+.margin-top {
+  margin-top: 50px;
+}
+.appFont1 {
+  color: rgb(52, 88, 119);
+}
+.appFont2 {
+  color: rgb(84, 154, 219);
+}
+.bkdBlack {
+  background: #111;
+  color: #fff;
+}
+i {
+  margin-right: 4px;
+}
+.btn {
+  margin-right: 5px;
+}
+.small {
+  font-size: 14px;
+}
+.appBdk1 {
+  background: rgb(52, 88, 119);
+}
+.headerFont {
+  font-size: 14px;
+  font-weight: bold;
+}
+.listingCmds {
+  width: 250px;
+  float: right;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.btnNew {
+  margin-left: 20px;
+  padding: 3px 20px;
+  float: right;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.fullWidth {
+  width: 100%;
+}
+.table {
+  clear: left;
+}
+ul.table li {
+  float: left;
+  display: block;
+  font-size: 16px;
+}
+.item-name {
+  width: 30%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.item-email {
+  width: 35%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.item-bal {
+  width: 15%;
+  text-align: right;
 }
-
-.App-link {
-  color: #61dafb;
+.item-clientid {
+  width: 25%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.item-txdate {
+  width: 10%;
+}
+.item-tx {
+  width: 10%;
+}
+.item-cmd {
+  width: 20%;
+  text-align: right;
+}
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+.content {
+  float: left;
+}
+.sidebar {
+  float: right;
+}
+@media (max-width: 500px) {
+  .desktop {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .mobile {
+    display: block;
+  }
+  ul.navbar-nav mr-auto menu {
+    display: none;
+    clear: left;
+    width: 100%;
+  }
+  ul.table li {
+    float: none;
+    clear: left;
+    display: block;
+    width: 100%;
+    text-align: left;
   }
 }
